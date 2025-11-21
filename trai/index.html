@@ -596,17 +596,17 @@
                             </div>
 
                             <!--<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_465142855">
-        <div data-animate="fadeInDown">
-            <div class="img-inner image-cover dark" style="padding-top:170%;">
-                <img decoding="async" width="600" height="900" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20600%20900%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src=".../content/global/moments/3I8A0523.jpg" class="lazy-load attachment-original size-original" alt="" srcset="" sizes="(max-width: 600px) 100vw, 600px">
-            </div>
-        </div>
-        <style>
-            #image_465142855 {
-                width: 100%;
-            }
-        </style>
-    </div>-->
+                                <div data-animate="fadeInDown">
+                                    <div class="img-inner image-cover dark" style="padding-top:170%;">
+                                        <img decoding="async" width="600" height="900" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20600%20900%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src=".../content/global/moments/3I8A0523.jpg" class="lazy-load attachment-original size-original" alt="" srcset="" sizes="(max-width: 600px) 100vw, 600px">
+                                    </div>
+                                </div>
+                                <style>
+                                    #image_465142855 {
+                                        width: 100%;
+                                    }
+                                </style>
+                            </div>-->
 
 
                             <div id="col-1775364715" class="col medium-12 small-12 large-7">
@@ -1822,67 +1822,44 @@
             </section>
 
             <div class="row align-center" id="row-2146557329">
-
-
                 <div id="col-900597350" class="col medium-10 small-12 large-10">
                     <div class="col-inner text-center">
 
+                        <p>
+                            <em>
 
-
-                        <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_505464912">
-                            <div class="img-inner dark">
-                                <img decoding="async" width="500" height="118" src="https://res.cloudinary.com/dhbkaafit/image/upload/v1763378707/105c5e33-80a4-4b4a-89d2-ffef8e377bad.png" class="attachment-original size-original lazy-load-active" alt="" sizes="(max-width: 500px) 100vw, 500px">
-                            </div>
-
-                            <style>
-                                #image_505464912 {
-                                    width: 83%;
-                                }
-
-                                @media (min-width:550px) {
-                                    #image_505464912 {
-                                        width: 39%;
-                                    }
-                                }
-                            </style>
-                        </div>
-
-
-                        <div id="text-2254918804" class="text">
-
-
-                            <h2><span style="color: #ed1c24;">Ảnh kỷ niệm sau đám cưới</span></h2>
-                            <style>
-                                #text-2254918804 {
-                                    text-align: center;
-                                }
-                            </style>
-                        </div>
-
-                        <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_506896579">
-                            <a class="" href="javascript:void(0)">
-                                <div class="img-inner dark">
-                                    <img decoding="async" width="500" height="118" src="https://res.cloudinary.com/dhbkaafit/image/upload/v1763379659/cm-soon_lvyfwd.png" class="attachment-original size-original lazy-load-active" alt="" sizes="(max-width: 500px) 100vw, 500px">
-                                </div>
+                                Hai bên gia đình xin gửi lời cảm ơn chân thành đến tất cả ông bà, anh chị, cô dì, chú bác, cùng tất cả bạn bè
+                                đã đến tham dự đám cưới và cùng nhau tạo nên những khoảnh khắc thật đặc biệt, đáng nhớ.
+                                Sự hiện diện và tình cảm của mọi người chính là niềm vui lớn nhất gia đình hai bên.
+                            </em>
+                        </p>
+                        <!-- Text -->
+                        <div style="margin-top: 20px;">
+                            <a href="javascript:void(0)" id="comingSoonBtn" class="button alert" style="border-radius:99px;">
+                                <span>Xem ảnh kỉ niệm sau đám cưới</span>
+                                <i class="icon-click"></i>
                             </a>
-                            <style>
-                                #image_506896579 {
-                                    width: 80%;
-                                }
-
-                                @media (min-width:550px) {
-                                    #image_506896579 {
-                                        width: 70%;
-                                    }
-                                }
-                            </style>
                         </div>
+
                     </div>
                 </div>
-
-
-
             </div>
+
+            <script>
+                document.getElementById("comingSoonBtn").addEventListener("click", function () {
+                    Swal.fire({
+                        toast: true,
+                        position: 'top-end',
+                        title: '❤️ Chưa đến đám cưới mà! Chờ sau đám cưới mình cùng nhau xem lại những khoảnh khắc tuyệt vời nhé !!!',
+                        showConfirmButton: false,
+                        timer: 5000,
+                        timerProgressBar: true,
+                        background: '#fffcf3',
+                        color: '#222020',
+
+                    });
+                });
+            </script>
 
             <style>
                 .nav-pills > li > a {
@@ -2296,6 +2273,7 @@
     <![endif]-->
     <script type="text/javascript" src="../content/themes/flatsome/inc/shortcodes/ux_countdown/countdown-script-min.js?ver=6.4.1" id="flatsome-countdown-script-js"></script>
     <script type="text/javascript" src="../content/themes/flatsome/inc/shortcodes/ux_countdown/ux-countdown.js?ver=3.2.6" id="flatsome-countdown-theme-js-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const audio = document.getElementById("background-music");

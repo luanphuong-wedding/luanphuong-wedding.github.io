@@ -1818,69 +1818,44 @@
                 </style>
             </section>
             <div class="row align-center" id="row-2146557329">
-
-
                 <div id="col-900597350" class="col medium-10 small-12 large-10">
                     <div class="col-inner text-center">
 
+                        <p>
+                            <em>
 
-
-                        <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_505464912">
-                            <div class="img-inner dark">
-                                <img decoding="async" width="500" height="118" src="https://res.cloudinary.com/dhbkaafit/image/upload/v1763378707/105c5e33-80a4-4b4a-89d2-ffef8e377bad.png" class="attachment-original size-original lazy-load-active" alt=""  sizes="(max-width: 500px) 100vw, 500px">
-                            </div>
-
-                            <style>
-                                #image_505464912 {
-                                    width: 83%;
-                                }
-
-                                @media (min-width:550px) {
-                                    #image_505464912 {
-                                        width: 39%;
-                                    }
-                                }
-                            </style>
-                        </div>
-
-
-                        <div id="text-2254918804" class="text">
-
-
-                            <h2><span style="color: #ed1c24;">Ảnh kỷ niệm sau đám cưới</span></h2>
-                                       <style>
-                                #text-2254918804 {
-                                    text-align: center;
-                                }
-                            </style>
-                        </div>
-                                       
-                        <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_506896579">
-                            <a class="" href="javascript:void(0)">
-                                <div class="img-inner dark">
-                                    <img decoding="async" width="500" height="118" src="https://res.cloudinary.com/dhbkaafit/image/upload/v1763379659/cm-soon_lvyfwd.png" class="attachment-original size-original lazy-load-active" alt="" sizes="(max-width: 500px) 100vw, 500px">
-                                </div>
+                                Hai bên gia đình xin gửi lời cảm ơn chân thành đến tất cả ông bà, anh chị, cô dì, chú bác, cùng tất cả bạn bè
+                                đã đến tham dự đám cưới và cùng nhau tạo nên những khoảnh khắc thật đặc biệt, đáng nhớ.
+                                Sự hiện diện và tình cảm của mọi người chính là niềm vui lớn nhất gia đình hai bên.
+                            </em>
+                        </p>
+                        <!-- Text -->
+                        <div style="margin-top: 20px;">
+                            <a href="javascript:void(0)" id="comingSoonBtn" class="button alert" style="border-radius:99px;">
+                                <span>Xem ảnh kỉ niệm sau đám cưới</span>
+                                <i class="icon-click"></i>
                             </a>
-                            <style>
-                                #image_506896579 {
-                                    width: 80%;
-                                }
-
-                                @media (min-width:550px) {
-                                    #image_506896579 {
-                                        width: 70%;
-                                    }
-                                }
-                            </style>
                         </div>
+
                     </div>
                 </div>
-
-
-
             </div>
 
+            <script>
+                document.getElementById("comingSoonBtn").addEventListener("click", function () {
+                    Swal.fire({
+                        toast: true,
+                        position: 'top-end',
+                        title: '❤️ Chưa đến đám cưới mà! Chờ sau đám cưới mình cùng nhau xem lại những khoảnh khắc tuyệt vời nhé !!!',
+                        showConfirmButton: false,
+                        timer: 5000,
+                        timerProgressBar: true,
+                        background: '#fffcf3',
+                        color: '#222020',
 
+                    });
+                });
+            </script>
             <style>
                 .nav-pills > li > a {
                     background-color: #ececec;
@@ -1931,7 +1906,7 @@
     </div>
     <!-- Audio nhạc nền -->
     <audio id="background-music" loop>
-        <source src="../content/music/nhac-cuoi.mp3" type="audio/mpeg">
+        <source src="../content/music/nhac-cuoi-nu.mp3" type="audio/mpeg">
     </audio>
 
     <link rel='stylesheet' id='flatsome-effects-css' href='../content/themes/flatsome/assets/css/effects.css?ver=3.15.7' type='text/css' media='all'>
@@ -2353,7 +2328,7 @@
             });
         });
     </script>
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- Script tạo tuyết rơi liên tục -->
     <script>
         // Tạo hiệu ứng tuyết rơi

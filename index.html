@@ -342,6 +342,7 @@
     <link rel="preload" as="image" href="https://res.cloudinary.com/dhbkaafit/image/upload/v1762922899/bg-ten-trai_vaay8f.png">
     <link rel="preload" as="image" href="https://res.cloudinary.com/dhbkaafit/image/upload/v1762922352/stk-trai_ekupqi.png">
     <link rel="preload" as="image" href="https://res.cloudinary.com/dhbkaafit/image/upload/v1762922352/stk-gai_sqihf4.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 
 </head>
 
@@ -1776,67 +1777,44 @@
                 </style>
             </section>
             <div class="row align-center" id="row-2146557329">
-
-
                 <div id="col-900597350" class="col medium-10 small-12 large-10">
                     <div class="col-inner text-center">
 
+                        <p>
+                            <em>
 
-
-                        <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_505464912">
-                            <div class="img-inner dark">
-                                <img decoding="async" width="500" height="118" src="https://res.cloudinary.com/dhbkaafit/image/upload/v1763378707/105c5e33-80a4-4b4a-89d2-ffef8e377bad.png" class="attachment-original size-original lazy-load-active" alt="" sizes="(max-width: 500px) 100vw, 500px">
-                            </div>
-
-                            <style>
-                                #image_505464912 {
-                                    width: 83%;
-                                }
-
-                                @media (min-width:550px) {
-                                    #image_505464912 {
-                                        width: 39%;
-                                    }
-                                }
-                            </style>
-                        </div>
-
-
-                        <div id="text-2254918804" class="text">
-
-
-                            <h2><span style="color: #ed1c24;">Ảnh kỷ niệm sau đám cưới</span></h2>
-                            <style>
-                                #text-2254918804 {
-                                    text-align: center;
-                                }
-                            </style>
-                        </div>
-
-                        <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_506896579">
-                            <a class="" href="javascript:void(0)">
-                                <div class="img-inner dark">
-                                    <img decoding="async" width="500" height="118" src="https://res.cloudinary.com/dhbkaafit/image/upload/v1763379659/cm-soon_lvyfwd.png" class="attachment-original size-original lazy-load-active" alt="" sizes="(max-width: 500px) 100vw, 500px">
-                                </div>
+                                Hai bên gia đình xin gửi lời cảm ơn chân thành đến tất cả ông bà, anh chị, cô dì, chú bác, cùng tất cả bạn bè
+                                đã đến tham dự đám cưới và cùng nhau tạo nên những khoảnh khắc thật đặc biệt, đáng nhớ.
+                                Sự hiện diện và tình cảm của mọi người chính là niềm vui lớn nhất gia đình hai bên.
+                            </em>
+                        </p>
+                        <!-- Text -->
+                        <div style="margin-top: 20px;">
+                            <a href="javascript:void(0)" id="comingSoonBtn" class="button alert" style="border-radius:99px;">
+                                <span>Xem ảnh kỉ niệm sau đám cưới</span>
+                                <i class="icon-click"></i>
                             </a>
-                            <style>
-                                #image_506896579 {
-                                    width: 80%;
-                                }
-
-                                @media (min-width:550px) {
-                                    #image_506896579 {
-                                        width: 70%;
-                                    }
-                                }
-                            </style>
                         </div>
+
                     </div>
                 </div>
-
-
-
             </div>
+
+            <script>
+                document.getElementById("comingSoonBtn").addEventListener("click", function () {
+                    Swal.fire({
+                        toast: true,
+                        position: 'top-end',
+                        title: '❤️ Chưa đến đám cưới mà! Chờ sau đám cưới mình cùng nhau xem lại những khoảnh khắc tuyệt vời nhé !!!',
+                        showConfirmButton: false,
+                        timer: 5000,
+                        timerProgressBar: true,
+                        background: '#fffcf3',
+                        color: '#222020',
+
+                    });
+                });
+            </script>
 
 
             <style>
@@ -2240,9 +2218,9 @@
     <script type="text/javascript" src="./includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
     <script type="text/javascript" src="./includes/js/hoverintent.min.js?ver=1.10.2" id="hoverIntent-js"></script>
     <script type="text/javascript" id="flatsome-js-js-extra">
-        /* <![CDATA[ */
-        var flatsomeVars = { "theme": { "version": "3.15.7" }, "ajaxurl": "", "rtl": "", "sticky_height": "70", "assets_url": "./content/themes/flatsome/assets/js/", "lightbox": { "close_markup": "<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>", "close_btn_inside": false }, "user": { "can_edit_pages": false }, "i18n": { "mainMenu": "Main Menu", "toggleButton": "Toggle" }, "options": { "cookie_notice_version": "1", "swatches_layout": false, "swatches_box_select_event": false, "swatches_box_behavior_selected": false, "swatches_box_update_urls": "1", "swatches_box_reset": false, "swatches_box_reset_extent": false, "swatches_box_reset_time": 300, "search_result_latency": "0" } };
-        /* ]]> */
+                /* <![CDATA[ */
+                    var flatsomeVars = {"theme": {"version": "3.15.7" }, "ajaxurl": "", "rtl": "", "sticky_height": "70", "assets_url": "./content/themes/flatsome/assets/js/", "lightbox": {"close_markup": "<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>", "close_btn_inside": false }, "user": {"can_edit_pages": false }, "i18n": {"mainMenu": "Main Menu", "toggleButton": "Toggle" }, "options": {"cookie_notice_version": "1", "swatches_layout": false, "swatches_box_select_event": false, "swatches_box_behavior_selected": false, "swatches_box_update_urls": "1", "swatches_box_reset": false, "swatches_box_reset_extent": false, "swatches_box_reset_time": 300, "search_result_latency": "0" } };
+                /* ]]> */
     </script>
     <script type="text/javascript" src="./content/themes/flatsome/assets/js/flatsome.js?ver=2ba06bae7e21001b4413f16ac4e08981" id="flatsome-js-js"></script>
     <script type="text/javascript" src="./content/themes/flatsome/inc/extensions/flatsome-lazy-load/flatsome-lazy-load.js?ver=3.15.7" id="flatsome-lazy-js"></script>
@@ -2251,105 +2229,106 @@
     <![endif]-->
     <script type="text/javascript" src="./content/themes/flatsome/inc/shortcodes/ux_countdown/countdown-script-min.js?ver=6.4.1" id="flatsome-countdown-script-js"></script>
     <script type="text/javascript" src="./content/themes/flatsome/inc/shortcodes/ux_countdown/ux-countdown.js?ver=3.2.6" id="flatsome-countdown-theme-js-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            const audio = document.getElementById("background-music");
-            const toggleButton = document.getElementById("music-toggle");
-            const playIcon = document.getElementById("play-icon");
-            const pauseIcon = document.getElementById("pause-icon");
+        const audio = document.getElementById("background-music");
+        const toggleButton = document.getElementById("music-toggle");
+        const playIcon = document.getElementById("play-icon");
+        const pauseIcon = document.getElementById("pause-icon");
 
-            let isPlaying = false;
-            let hasStarted = false;
+        let isPlaying = false;
+        let hasStarted = false;
 
-            // Chạm lần đầu để phát nhạc
-            document.body.addEventListener("click", function () {
-                if (!hasStarted) {
-                    audio.play().then(() => {
-                        isPlaying = true;
-                        hasStarted = true;
-                        playIcon.style.display = "none";
-                        pauseIcon.style.display = "block";
-                        toggleButton.classList.add("vibrating");
-                    }).catch((e) => {
-                        console.log("Lỗi phát nhạc: ", e);
-                    });
-                }
-            }, { once: true });
-
-            document.addEventListener("scroll", function () {
-                if (!hasStarted) {
-                    audio.play().then(() => {
-                        isPlaying = true;
-                        hasStarted = true;
-                        playIcon.style.display = "none";
-                        pauseIcon.style.display = "block";
-                        toggleButton.classList.add("vibrating");
-                    }).catch((e) => {
-                        console.log("Lỗi phát nhạc: ", e);
-                    });
-                }
-            }, { once: true });
-
-            // Bấm nút để bật/tắt nhạc
-            toggleButton.addEventListener("click", function (event) {
-                event.stopPropagation(); // không lan sự kiện click
-
-                if (isPlaying) {
-                    audio.pause();
-                    isPlaying = false;
-                    playIcon.style.display = "block";
-                    pauseIcon.style.display = "none";
-                    toggleButton.classList.remove("vibrating");
-                } else {
-                    audio.play().then(() => {
-                        isPlaying = true;
-                        playIcon.style.display = "none";
-                        pauseIcon.style.display = "block";
-                        toggleButton.classList.add("vibrating");
-                    });
-                }
+        // Chạm lần đầu để phát nhạc
+        document.body.addEventListener("click", function () {
+            if (!hasStarted) {
+            audio.play().then(() => {
+                isPlaying = true;
+                hasStarted = true;
+                playIcon.style.display = "none";
+                pauseIcon.style.display = "block";
+                toggleButton.classList.add("vibrating");
+            }).catch((e) => {
+                console.log("Lỗi phát nhạc: ", e);
             });
+            }
+        }, {once: true });
+
+        document.addEventListener("scroll", function () {
+            if (!hasStarted) {
+            audio.play().then(() => {
+                isPlaying = true;
+                hasStarted = true;
+                playIcon.style.display = "none";
+                pauseIcon.style.display = "block";
+                toggleButton.classList.add("vibrating");
+            }).catch((e) => {
+                console.log("Lỗi phát nhạc: ", e);
+            });
+            }
+        }, {once: true });
+
+        // Bấm nút để bật/tắt nhạc
+        toggleButton.addEventListener("click", function (event) {
+            event.stopPropagation(); // không lan sự kiện click
+
+        if (isPlaying) {
+            audio.pause();
+        isPlaying = false;
+        playIcon.style.display = "block";
+        pauseIcon.style.display = "none";
+        toggleButton.classList.remove("vibrating");
+            } else {
+            audio.play().then(() => {
+                isPlaying = true;
+                playIcon.style.display = "none";
+                pauseIcon.style.display = "block";
+                toggleButton.classList.add("vibrating");
+            });
+            }
         });
+    });
     </script>
 
     <!-- Script tạo tuyết rơi liên tục -->
     <script>
         // Tạo hiệu ứng tuyết rơi
         function createSnowflakes() {
-            // Tạo container cho tuyết
-            const snowContainer = document.createElement('div');
-            snowContainer.className = 'snow-container';
-            document.body.appendChild(snowContainer);
+        // Tạo container cho tuyết
+        const snowContainer = document.createElement('div');
+        snowContainer.className = 'snow-container';
+        document.body.appendChild(snowContainer);
 
-            const snowflakeCount = 30; // Tăng số lượng bông tuyết
-            const snowChars = ['❤️', '💗', '🤍']; // Các ký tự tuyết
+        const snowflakeCount = 30; // Tăng số lượng bông tuyết
+        const snowChars = ['❤️', '💗', '🤍']; // Các ký tự tuyết
 
-            for (let i = 0; i < snowflakeCount; i++) {
-                const snowflake = document.createElement('div');
-                snowflake.className = 'snowflake';
+        for (let i = 0; i < snowflakeCount; i++) {
+            const snowflake = document.createElement('div');
+        snowflake.className = 'snowflake';
 
-                // Chọn ký tự tuyết ngẫu nhiên
-                snowflake.textContent = snowChars[Math.floor(Math.random() * snowChars.length)];
+        // Chọn ký tự tuyết ngẫu nhiên
+        snowflake.textContent = snowChars[Math.floor(Math.random() * snowChars.length)];
 
-                // Vị trí ngang ngẫu nhiên
-                snowflake.style.left = Math.random() * 100 + '%';
+        // Vị trí ngang ngẫu nhiên
+        snowflake.style.left = Math.random() * 100 + '%';
 
-                // Kích thước ngẫu nhiên
-                snowflake.style.fontSize = (Math.random() * 0.8 + 0.4) + 'em';
+        // Kích thước ngẫu nhiên
+        snowflake.style.fontSize = (Math.random() * 0.8 + 0.4) + 'em';
 
-                // Thời gian rơi đều hơn (8-15 giây)
-                const duration = Math.random() * 7 + 8;
-                snowflake.style.animationDuration = duration + 's';
+        // Thời gian rơi đều hơn (8-15 giây)
+        const duration = Math.random() * 7 + 8;
+        snowflake.style.animationDuration = duration + 's';
 
-                // Delay phân bổ đều trong khoảng thời gian rơi
-                snowflake.style.animationDelay = (Math.random() * duration) + 's';
+        // Delay phân bổ đều trong khoảng thời gian rơi
+        snowflake.style.animationDelay = (Math.random() * duration) + 's';
 
-                // Độ mờ ngẫu nhiên
-                snowflake.style.opacity = Math.random() * 0.8 + 0.4;
+        // Độ mờ ngẫu nhiên
+        snowflake.style.opacity = Math.random() * 0.8 + 0.4;
 
-                snowContainer.appendChild(snowflake);
-            }
+        snowContainer.appendChild(snowflake);
         }
+    }
 
         // Chạy khi trang load xong
         window.addEventListener('load', createSnowflakes);
